@@ -1,12 +1,11 @@
 import React from 'react';
 
-function App() {
+const App = () => {
   return (
-    <div id="main">
-      <p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+    <div>
+      <p>I can now create full fleged React components and render it on the DOM node</p>
     </div>
   );
-}
-
+};
 
 export default App;
